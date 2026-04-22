@@ -21,8 +21,7 @@ fun modulo(a: Int, b: Int): Int {
 }
 
 fun esMayorQue(a: Int, b: Int): Boolean {
-    TODO("Retornar true si a es mayor que b")
-    
+    return: Boolean = a > b
 }
 
 fun esMenorQue(a: Int, b: Int): Boolean {
