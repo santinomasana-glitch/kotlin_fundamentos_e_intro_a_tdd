@@ -1,4 +1,5 @@
 package edu.etec.ds.fundamentos
+import kotlin.math.abs
 
 fun suma(a: Int, b: Int): Int {
     return a + b
@@ -21,27 +22,27 @@ fun modulo(a: Int, b: Int): Int {
 }
 
 fun esMayorQue(a: Int, b: Int): Boolean {
-    return: Boolean = a > b
+    return a > b
 }
 
 fun esMenorQue(a: Int, b: Int): Boolean {
-    TODO("Retornar true si a es menor que b")
+    return a < b
 }
 
 fun sonIguales(a: Int, b: Int): Boolean {
-    TODO("Retornar true si a y b son iguales")
+    return a == b
 }
 
 fun esPar(numero: Int): Boolean {
-    TODO("Retornar true si el numero es par")
+    return numero % 2 == 0
 }
 
 fun esImpar(numero: Int): Boolean {
-    TODO("Retornar true si el numero es impar")
+    return numero % 2 == 1
 }
 
 fun valorAbsoluto(numero: Int): Int {
-    TODO("Retornar el valor absoluto del numero")
+    return abs(numero)
 }
 
 fun maximo(a: Int, b: Int): Int {
